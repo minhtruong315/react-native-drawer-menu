@@ -398,7 +398,6 @@ export default class Drawer extends Component {
         <View
           ref={this._mainRefBind}
           style={[customStyles.main, styles.absolute]}
-          {...this._pan.panHandlers}
         >
           {this.props.children}
           {this.state.showMask && <View
